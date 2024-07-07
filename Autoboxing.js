@@ -1,0 +1,5 @@
+/*Todos os dados de tipos primitivos como Number, BigInt, Boolean ou String têm objetos correspondentes para os quais podem ser convertidos. Cada um desses objetos terá métodos projetados para um tipo de dados específico. Neste ponto, chegamos a outro conceito, isto é, autoboxing . Se um ponto aparecer após um literal representando um tipo primitivo, ou após uma variável contendo este tipo de dados, o interpretador JavaScript tenta tratar este valor como um objeto e não um primitivo. Para este propósito, ele converte o primitivo para o objeto correspondente em tempo real, que tem os métodos apropriados (ou seja, ele executa o autoboxing). Um pouco confuso, não é? Felizmente, para usar métodos, não precisamos entendê-los exatamente - basta seguir a convenção dada. */
+
+let river = "Mekong";
+let character = river.charAt(2);
+console.log(character);
