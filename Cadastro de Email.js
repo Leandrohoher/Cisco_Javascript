@@ -18,6 +18,8 @@ let name3End =  ("oliveira@gmail.com.br");
 
 console.log(name1, + name1Number,  name1End);
 console.log(name3, + name3Number,  name3End);
+console.log(name2);
+
 
 
 
